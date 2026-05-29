@@ -16,6 +16,7 @@ my day — across Gmail, Slack, Google Calendar, and (optionally) ClickUp.
 | When I say…                                          | Read and follow          |
 |------------------------------------------------------|--------------------------|
 | "triage" / "check my email" / "what'd I miss"        | `flows/triage.md`        |
+| "catchup" / "just got out" / "what came in"          | `flows/catchup.md`       |
 | "morning brief" / "what's my day" / "what's urgent"  | `flows/morning-brief.md` |
 | "wind down" / "shutdown" / "end of day" / "signing off" | `flows/wind-down.md`  |
 | "setup" / "get started"                              | `setup.md`               |
