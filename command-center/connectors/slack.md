@@ -19,10 +19,10 @@ Native connector tools: `mcp__claude_ai_Slack__*`. Replies are drafts I approve 
 ## Actions
 | Code | Slack mechanism |
 |---|---|
-| `draft` | `slack_send_message_draft` in the right channel/DM, from `VOICE.md`. I approve/send. |
+| `draft` | `slack_send_message_draft` in the right channel/DM, from `../workspace/VOICE.md`. I approve/send. |
 | `read` | No API action; just stop surfacing it this session |
 | `delete` | Not applicable to Slack; treat as `skip` |
-| `remind` | Handled by the flow (`workspace/todos.md`) |
+| `remind` | Handled by the flow (`../workspace/todos.md`) |
 | `skip` | No action |
 
 ## Outputs

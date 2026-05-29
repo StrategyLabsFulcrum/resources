@@ -19,10 +19,10 @@ approve in Gmail; deletes and reads are done with labels.
 ## Actions (mapped to the shared action codes)
 | Code | Gmail mechanism |
 |---|---|
-| `draft` | `create_draft` as a reply on the thread, written from `VOICE.md`. I send it myself. |
+| `draft` | `create_draft` as a reply on the thread, written from `../workspace/VOICE.md`. I send it myself. |
 | `read` | `unlabel_thread` removing the `UNREAD` label |
 | `delete` | `label_thread` applying the `TRASH` label (recoverable). If `TRASH` isn't applyable, label it `Command Center/Handled` and tell me. |
-| `remind` | Handled by the flow (writes to `workspace/todos.md`); no Gmail action |
+| `remind` | Handled by the flow (writes to `../workspace/todos.md`); no Gmail action |
 | `skip` | No action |
 
 ## Outputs

@@ -31,7 +31,7 @@ decisions. This file defines the shared vocabulary the connectors refer to.
    `3. 🔴 Bryan H — "Q3 numbers" — 9:14am`
 3. I respond with rapid-fire codes, e.g. `1: draft, 2: remind mon 9am, 3-5: delete, 6: read`.
 4. Execute each action via the relevant connector's Actions table:
-   - `draft` → read `VOICE.md`, write a draft reply via the connector (Gmail/Slack create a
+   - `draft` → read `../workspace/VOICE.md`, write a draft reply via the connector (Gmail/Slack create a
      **draft**, never send), then show it to me.
    - `remind [time]` → append a line to `../workspace/todos.md`:
      `- [ ] {what} — due {time} (from {source}, {date})`
