@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/SL-Logo-Horizontal-White.png">
+    <img src="assets/SL-Logo-Horizontal-Black.png" alt="Strategy Labs" width="320">
+  </picture>
+</p>
+
 # Command Center
 
 A simple inbox workspace for Claude. It triages your Gmail and Slack, drafts replies in your voice, and
