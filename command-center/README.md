@@ -38,6 +38,8 @@ rm -rf /tmp/sl-resources && \
 echo "✅ Command Center ready — open a Cowork chat on the folder and say setup"
 ```
 
+**No terminal?** [Download the folder as a zip](https://download-directory.github.io/?url=https://github.com/StrategyLabsFulcrum/resources/tree/main/command-center) → unzip → move the `command-center` folder into `~/Documents/Claude/Projects/`.
+
 (First time you use `git`, macOS may prompt you to install the Xcode command line tools — say yes.)
 
 ## Get started (Cowork)
