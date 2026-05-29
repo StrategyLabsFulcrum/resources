@@ -10,12 +10,17 @@ Onboard me to Command Center. This configures the workspace; it does not process
    - ClickUp (optional) (`mcp__claude_ai_ClickUp__clickup_get_workspace_hierarchy`)
    Tell me what's connected and what to connect in Claude's connector settings if I want more. Don't
    block on missing ones.
-2. **Seed my voice.** If `workspace/VOICE.md` is still the template, ask me 3 short questions,
-   one at a time, and write my answers in (ask for concrete examples, not adjectives):
-   - "Paste 1–2 sentences from a reply you're happy with."
-   - "How do you sign off — casual and formal?"
-   - "Any words or phrases you never use?"
-   Save them into `workspace/VOICE.md`.
+2. **Seed my voice.** If `workspace/VOICE.md` is still the template, probe how I write — ask as
+   **structured multiple-choice questions** where possible (use the AskUserQuestion picker if your
+   environment supports it; otherwise ask in chat, one at a time). Aim for concrete signal, not vague
+   adjectives:
+   - **Tone** (multi-select): concise · warm · direct · formal · playful · numbers-forward ·
+     skip-pleasantries
+   - **Casual sign-off** (choose or write in): "Thanks — Scott" · "—S" · "Cheers, Scott" · other
+   - **Formal sign-off** (choose or write in): "Best, Scott" · "Best regards, Scott Ellis" · other
+   - **Never-use phrases** (free text): clichés I avoid (e.g. "circling back", "per my last email")
+   - **One real example** (free text): paste 1–2 sentences from a reply I'm happy with
+   Write the answers into `workspace/VOICE.md` under its existing headings.
 3. **Confirm workspace files exist.** Ensure `workspace/todos.md`, `workspace/followups.md`, and
    `workspace/VOICE.md` are present (create from template if missing).
 4. **Point me at the triggers.** Tell me I can now say "morning brief" or "triage" — and that
