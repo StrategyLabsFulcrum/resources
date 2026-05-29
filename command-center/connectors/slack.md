@@ -7,7 +7,7 @@ Native connector tools: `mcp__claude_ai_Slack__*`. Replies are drafts I approve 
 | Source | Tool | Scope | Why |
 |---|---|---|---|
 | Mentions & DMs | `slack_search_public_and_private` | messages to me / mentioning me, recent | The items to triage |
-| My own recent messages | `slack_search_public_and_private` | messages from me, last ~2 weeks | Detect commitments I made (Process 3) |
+| My own recent messages | `slack_search_public_and_private` | messages from me, last 72 hours | Detect commitments I made (Process 3) |
 | Thread detail | `slack_read_thread` | A single thread | Confirm a question went unanswered / a commitment had no follow-up |
 | Voice | `../workspace/VOICE.md` | Full file | Draft replies in my voice |
 
@@ -24,7 +24,7 @@ Run three passes and merge into one list. Each item uses the normalized shape:
    thread (`slack_read_thread`) to confirm there's no later message from me. Surface as 🔴 RESPOND
    flagged `(open question — you haven't replied)`.
 
-3. **Open commitments I made.** Search my own messages from the last ~2 weeks for commitment language.
+3. **Open commitments I made.** Search my own messages from the last 72 hours for commitment language.
    Slack has no boolean OR, so run one search per phrase: `from:me after:{date} "I'll"`,
    `… "let me"`, `… "I'll look into"`, `… "I'll send"`, `… "on it"`, `… "will do"`, `… "I can get you"`.
    For each hit, read the thread and check whether I later posted a follow-up that **delivers or closes
