@@ -49,11 +49,14 @@ echo "✅ Command Center ready — open a Cowork chat on the folder and say setu
 
 ## Daily use
 
-- **"morning brief"** — your day at a glance: calendar, urgent mail, missed Slack. No actions.
+- **"morning brief"** — your day at a glance: today's calendar, open loops you owe, urgent mail, your
+  due-today to-dos, people waiting on you. No actions.
 - **"triage"** — work through your inboxes: Claude shows a numbered list, you rapid-fire `draft / remind /
   read / delete / skip` by number (e.g. `1: draft, 3-5: delete`). Replies are always drafts you approve.
 - Prefer a slower pass? Say **"triage one at a time"** — Claude recommends an action per message and you
   just confirm.
+- **"wind down"** — end-of-day closeout: previews tomorrow's meetings and what's due tomorrow, then walks
+  you through today's open Slack loops one at a time so you close or consciously defer each before signing off.
 - Say **"just triage Slack"** to scope it to one source.
 
 ## Make it yours

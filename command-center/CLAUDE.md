@@ -17,6 +17,7 @@ my day — across Gmail, Slack, Google Calendar, and (optionally) ClickUp.
 |------------------------------------------------------|--------------------------|
 | "triage" / "check my email" / "what'd I miss"        | `flows/triage.md`        |
 | "morning brief" / "what's my day" / "what's urgent"  | `flows/morning-brief.md` |
+| "wind down" / "shutdown" / "end of day" / "signing off" | `flows/wind-down.md`  |
 | "setup" / "get started"                              | `setup.md`               |
 
 To work a single source (e.g. "just triage Slack"), read the matching file in `connectors/`.
