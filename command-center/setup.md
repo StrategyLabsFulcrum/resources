@@ -16,8 +16,9 @@ Onboard me to Command Center. This configures the workspace; it does not process
    adjectives:
    - **Tone** (multi-select): concise · warm · direct · formal · playful · numbers-forward ·
      skip-pleasantries
-   - **Casual sign-off** (choose or write in): "Thanks — Scott" · "—S" · "Cheers, Scott" · other
-   - **Formal sign-off** (choose or write in): "Best, Scott" · "Best regards, Scott Ellis" · other
+   - **Casual sign-off** — build the options from *my* first name (ask if you don't know it yet; don't
+     hard-code a name): e.g. "Thanks — {first name}" · "{first name}" · "Cheers, {first name}" · or write in
+   - **Formal sign-off** — same: e.g. "Best, {first name}" · "Best regards, {full name}" · or write in
    - **Never-use phrases** (free text): clichés I avoid (e.g. "circling back", "per my last email")
    - **One real example** (free text): paste 1–2 sentences from a reply I'm happy with
    Write the answers into `workspace/VOICE.md` under its existing headings.
