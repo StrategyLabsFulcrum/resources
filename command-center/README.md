@@ -18,9 +18,24 @@ command-center/
   workspace/         ← your stuff: todos, followups, VOICE (you edit these)
 ```
 
+## Download it
+
+Paste this into Terminal. It drops a copy into `~/Documents/Claude/Projects/command-center` (your
+personal notes stay in that copy — they never touch the shared repo):
+
+```bash
+mkdir -p ~/Documents/Claude/Projects && \
+git clone --depth=1 https://github.com/StrategyLabsFulcrum/resources.git /tmp/sl-resources && \
+cp -R /tmp/sl-resources/command-center ~/Documents/Claude/Projects/command-center && \
+rm -rf /tmp/sl-resources && \
+echo "✅ Command Center ready — open a Cowork chat on the folder and say setup"
+```
+
+(First time you use `git`, macOS may prompt you to install the Xcode command line tools — say yes.)
+
 ## Get started (Cowork)
 
-1. Copy this `command-center/` folder into `~/Documents/Claude/Projects/` (or anywhere you like).
+1. Run the download command above (or copy the `command-center/` folder anywhere you like).
 2. Connect Gmail, Slack, and Google Calendar in Claude's connector settings (ClickUp optional).
 3. Open a chat pointed at the folder and say **"setup"**.
 4. Then say **"morning brief"** or **"triage."**

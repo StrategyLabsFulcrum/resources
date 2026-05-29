@@ -28,7 +28,7 @@ decisions. This file defines the shared vocabulary the connectors refer to.
 1. Ask which sources to triage, or default to all connected ones. For each, read the matching
    `../connectors/*.md` and run its Process to fetch items in the normalized shape.
 2. Present items grouped by source, numbered, each with its suggested category, e.g.:
-   `3. 🔴 Bryan H — "Q3 numbers" — 9:14am`
+   `3. 🔴 Jim — "Q3 numbers" — 9:14am`
 3. I respond with rapid-fire codes, e.g. `1: draft, 2: remind mon 9am, 3-5: delete, 6: read`.
 4. Execute each action via the relevant connector's Actions table:
    - `draft` → read `../workspace/VOICE.md`, write a draft reply via the connector (Gmail/Slack create a
