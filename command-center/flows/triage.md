@@ -21,7 +21,7 @@ decisions. This file defines the shared vocabulary the connectors refer to.
 | `draft` | Draft a reply in my voice (read `../workspace/VOICE.md` first) |
 | `remind [time]` | Append to `../workspace/todos.md` with the due time |
 | `read` | Mark read (connector-specific) |
-| `delete` | Delete/trash (connector-specific; recoverable) |
+| `delete` | Dismiss it (connector-specific, always recoverable — Gmail archives, never trashes) |
 | `skip` | Leave it for later |
 
 ## Process
