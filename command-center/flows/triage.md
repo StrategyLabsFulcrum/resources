@@ -31,8 +31,12 @@ decisions. This file defines the shared vocabulary the connectors refer to.
      "walk me through it" or "one at a time" pick the second.
    Read the matching `../connectors/*.md` for each source and run its Process to fetch items in the
    normalized shape.
-2. **Categorize** each item (🔴 / 🟡 / 🗑️).
-3. Present and act according to the chosen style (see Triage styles).
+2. **Categorize** each item (🔴 / 🟡 / 🗑️). Consult `../workspace/people.md` and
+   `../workspace/clients.md`: recognize the sender, decode names/shorthand so summaries read in plain
+   names, and bump known **client contacts** and `[VIP]` people toward 🔴.
+3. Present and act according to the chosen style (see Triage styles). If an unfamiliar name recurs
+   across items, offer to add a one-line entry to `../workspace/people.md` (only with my ok — never add
+   silently).
 4. Execute each action via the relevant connector's Actions table:
    - `draft` → read `../workspace/VOICE.md`, write a draft reply via the connector (Gmail/Slack create a
      **draft**, never send), then show it to me.

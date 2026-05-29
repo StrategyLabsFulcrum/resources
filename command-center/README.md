@@ -22,7 +22,7 @@ command-center/
   setup.md           ← run once to get started
   flows/             ← the playbooks (triage, morning-brief)
   connectors/        ← one file per source (gmail, slack, calendar, clickup)
-  workspace/         ← your stuff: todos, followups, VOICE (you edit these)
+  workspace/         ← your stuff: todos, followups, VOICE, people, clients (you edit these)
 ```
 
 ## Download it
@@ -59,6 +59,9 @@ echo "✅ Command Center ready — open a Cowork chat on the folder and say setu
 ## Make it yours
 
 - Edit `workspace/VOICE.md` so drafts sound like you.
+- Fill in `workspace/clients.md` and `workspace/people.md` — Claude will recognize names that come up,
+  prioritize client and `[VIP]` contacts, and draft with context. (They also grow as you go: Claude
+  offers to add unfamiliar names that keep appearing.)
 - Edit `flows/triage.md` to change how triage behaves.
 - **Add a new source** (e.g. iMessage): add one file in `connectors/` and one row in `CLAUDE.md`.
 

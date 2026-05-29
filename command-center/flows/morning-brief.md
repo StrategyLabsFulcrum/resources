@@ -4,7 +4,10 @@ A read-only glance at my day. No actions taken — just a briefing. Offer to tri
 
 ## Process
 1. Read `../connectors/calendar.md`, `../connectors/gmail.md`, `../connectors/slack.md`, and
-   `../connectors/clickup.md` (skip any not connected).
+   `../connectors/clickup.md` (skip any not connected). Also read `../workspace/people.md` and
+   `../workspace/clients.md` — use them to decode names so the brief reads in plain names and to
+   prioritize known client and `[VIP]` contacts. If an unfamiliar name recurs, you may note it and
+   offer to add it to `people.md` (with my ok).
 2. Gather, in parallel where possible:
    - **Calendar** — today's events (chronological; flag back-to-backs and anything before 9am).
    - **Gmail** — urgent/unread since yesterday. "Urgent" = unread 🔴 RESPOND items (see

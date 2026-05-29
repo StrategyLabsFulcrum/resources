@@ -21,11 +21,20 @@ Onboard me to Command Center. This configures the workspace; it does not process
    - **Never-use phrases** (free text): clichés I avoid (e.g. "circling back", "per my last email")
    - **One real example** (free text): paste 1–2 sentences from a reply I'm happy with
    Write the answers into `workspace/VOICE.md` under its existing headings.
-3. **Confirm workspace files exist.** Ensure `workspace/todos.md`, `workspace/followups.md`, and
-   `workspace/VOICE.md` are present (create from template if missing).
-4. **Point me at the triggers.** Tell me I can now say "morning brief" or "triage" — and that
+3. **Seed people & clients.** Ask (structured where possible, otherwise in chat) — no inbox scan, just
+   ask me:
+   - "Who are your top 3–5 clients right now?" For each: one line on what we do + the key contact.
+     Write into `workspace/clients.md`.
+   - "Who do you deal with most?" For each: name/nickname, full name, role, org. Write into
+     `workspace/people.md`; flag anyone important with `[VIP]`.
+   Keep both short — they grow as I work.
+4. **Confirm workspace files exist.** Ensure `workspace/todos.md`, `workspace/followups.md`,
+   `workspace/VOICE.md`, `workspace/people.md`, and `workspace/clients.md` are present (create from
+   template if missing).
+5. **Point me at the triggers.** Tell me I can now say "morning brief" or "triage" — and that
    everything lives in plain markdown I can edit by hand.
 
 ## Done when
 - I know which connectors are live.
 - `VOICE.md` reflects how I actually write.
+- `people.md` and `clients.md` have my top contacts and active clients.
