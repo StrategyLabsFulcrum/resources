@@ -9,7 +9,9 @@ A read-only glance at my day. No actions taken — just a briefing. Offer to tri
    - **Calendar** — today's events (chronological; flag back-to-backs and anything before 9am).
    - **Gmail** — urgent/unread since yesterday. "Urgent" = unread 🔴 RESPOND items (see
      `triage.md` categories). Cap at the top ~5; say how many more.
-   - **Slack** — DMs and mentions I haven't read since yesterday. Cap at the top ~5.
+   - **Slack** — run all three passes in `slack.md`: unread DMs/mentions, **open questions to me** with
+     no reply, and **commitments I made (especially yesterday) with no follow-up**. That last one is the
+     point of the brief — resurface loops I opened and never closed. Cap each group at ~5.
    - **ClickUp** (if connected) — tasks due today or overdue.
 3. Compose a short brief in this shape:
 
@@ -20,7 +22,12 @@ A read-only glance at my day. No actions taken — just a briefing. Offer to tri
    - {time} {event} ({attendees})
    ...
 
-   🔴 Needs you
+   🔁 Open loops — you owe   (primarily from Slack; the heart of the brief)
+   - {who/where}: you said you'd {commitment} — no follow-up since {date}
+   - {who/where}: asked you "{question}" — no reply
+   ...
+
+   🔴 Needs you (new since yesterday)
    - {source}: {from} — {subject}
    ...
 
@@ -28,8 +35,9 @@ A read-only glance at my day. No actions taken — just a briefing. Offer to tri
    - {task} — {list}
    ...
 
-   {one-line nudge: e.g. "3 things need a reply. Want to triage?"}
+   {one-line nudge, lead with open loops: e.g. "2 commitments still open from yesterday + 3 new replies needed. Want to triage?"}
    ```
+   If there are no open loops, omit that section (don't fabricate one).
 4. Do **not** draft, delete, or mark anything. If I say "yes, triage," follow `triage.md`.
 
 ## Audit (run before finishing)
